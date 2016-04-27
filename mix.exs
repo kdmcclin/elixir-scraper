@@ -28,9 +28,9 @@ defmodule Scraper.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:httpoison, "~> 0.5"},
-      {:floki, "~> 0.3"},
-      { :hound, "~> 0.6.0" }
+      {:httpoison, "~> 0.8.0"},
+      {:floki, "~> 0.8"},
+      {:hound, "~> 0.8" }
     ]
   end
 end
