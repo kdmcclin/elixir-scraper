@@ -1,20 +1,9 @@
 # Scraper
 
-**TODO: Add description**
+This is a basic web scraper that pulls the title of the Packt Publishing [free book of the day](https://www.packtpub.com/packt/offers/free-learning) so I know if I might want to check the website and get it.
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
-
-  1. Add scraper to your list of dependencies in `mix.exs`:
-
-        def deps do
-          [{:scraper, "~> 0.0.1"}]
-        end
-
-  2. Ensure scraper is started before your application:
-
-        def application do
-          [applications: [:scraper]]
-        end
-
+##Future Steps
+*  Pull more than the title (add the description) so that I know more about the book
+	*  especially for books that don't clearly indicate what technology or topic they're about
+*  Add functionality to text, email, or otherwise alert me so I don't have to run it myself
+  *  Or add as a Slack bot for one of my Slack groups
